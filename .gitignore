@@ -1,0 +1,87 @@
+# =============== Geral ===============
+# Ignorar arquivos compilados do Java
+*.class
+
+# Ignorar arquivos gerados pelo sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log e cache
+logs/
+*.log
+*.tmp
+
+target/
+!src/main/resources/
+
+# Ignorar configurações de execução local
+*.iml
+*.iws
+.idea/
+*.swp
+
+# =============== MAVEN ===============
+# Ignorar diretórios de build do Maven
+target/
+.mvn/
+.m2/
+
+# Arquivo de wrapper do Maven
+!mvnw
+!mvnw.cmd
+
+# =============== GRADLE ===============
+.gradle/
+/build/
+!gradlew
+!gradlew.bat
+
+# Cache do Gradle
+.gradle
+.gradle/
+build/
+!gradlew
+!gradlew.bat
+
+# =============== GIT ===============
+# Ignorar arquivos de merge do Git
+*.orig
+
+# Ignore arquivos específicos do sistema operacional
+*.swp
+*.swo
+
+# =============== INTELLIJ IDEA ===============
+# Arquivos da IDE IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =============== ECLIPSE ===============
+# Arquivos da IDE Eclipse
+.classpath
+.project
+.settings/
+
+# =============== VS CODE ===============
+.vscode/
+
+# =============== Spring Boot ===============
+# Arquivo de configuração local
+application.properties
+application.yml
+application-local.properties
+application-local.yml
+
+# Arquivos sensíveis
+.env
+secrets/
+keys/
+certs/
+
+# =============== Docker e Kubernetes ===============
+# Ignorar arquivos de configuração local do Docker/K8s
+.docker/
+.dockerignore
+.kube/
